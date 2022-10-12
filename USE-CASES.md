@@ -201,12 +201,23 @@ Account Takeover: A similar point to the above holds for account takeover when e
 #### Retrieve a device’s IP address
 Knowledge of the IP address offers many benefits in the fight against identity fraud:
 
+
+##### Related capabilities
+###### Build and maintain a reputation of networks connecting to your system (datacenters, geo-hopping proxies) (from VPN/TOR detection)
 VPN/TOR detection: Many cases of fraud are committed from devices on VPNs. This is therefore a valuable risk signal.
-Relatively unique identifier: Similar to the use cases above. For example: 
+
+
+###### Distinguish client endpoints for rate limiting, fraud detection, or preventing repeat abuse 
+Many use cases are currently addressed by treating IP as a relatively unique identifier: Similar to the use cases above. For example: 
 Account Creation: seeing unusual numbers of account creations from the same IP or IP range indicates risk; 
+###### Distinguish client endpoints for risk based authentication / resource binding
 Account Takeover: seeing an identity with an IP address that it has never been associated with. These are ways in which knowledge of the IP address can contribute to risk insights.
+
 IP block nature: If certain IPs within a block have been associated with fraud, the overarching block can be preemptively labeled as more risky.
 Approximate location information: IP addresses are associated with geolocation information. During account creation if an IPs geolocation is far removed from the submitted address this indicates higher risk of fraud.
+
+###### Know a client endpoint's network and which client endpoints belong to a network
+
 
 #### Know the geographic location of the device
 This refers to geolocation information through GPS / Wi-Fi triangulation, as this offers additional confidence over only IP-based geolocation, particularly when proxies are being used.
