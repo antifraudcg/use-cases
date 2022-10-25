@@ -198,6 +198,24 @@ Similar to the above, but recognizing the usage of the same device with differen
 Account Creation: Fraudsters often steal multiple identities. Seeing many different identities’ data coming from the same device is a high risk signal, since legitimate users mostly use a single identity with their device.
 Account Takeover: A similar point to the above holds for account takeover when e.g. a fraudster is using a list of leaked usernames and passwords to takeover multiple victims' accounts. Recognizing that these logins into multiple accounts are happening from the same device can be used to indicate high risk.
 
+#### Enforce rate limiting against a scarce client resource
+Limits the number of times an action can be taken by an anonymous client.
+
+##### Use cases
+Account Creation: Limit the number of accounts that can be created.  
+Credential Stuffing: Limit the number of distinct accounts that can attempt sign in.  
+IVT: Cap the number of clicks or conversions to some maximum per X per day.  
+Sensitive data scraping: Limit accesses to aggregable information.  
+Online spam & fake engagements: Frustrate manipulation of lightweight interactions (e.g. video views) by capping contributions.  
+Denial of Service: Rate limit particularly expensive operations.  
+
+#### Deterministically block abusive clients
+Ensure that a particular client is no longer able to reach your services.
+
+##### Use cases
+Account Creation: Frustrate repeat offenders and harden against account ban evasion.   
+Denial of Service (and others): Block signed-out clients that are abusing services.  
+
 #### Retrieve a device’s IP address
 Knowledge of the IP address offers many benefits in the fight against identity fraud:
 
