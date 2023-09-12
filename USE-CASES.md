@@ -169,6 +169,9 @@ Attackers seeking private data (e.g. bearer tokens, passwords, form entries, ema
 ### Domain Spoofing
 Domain spoofing (also referred to as Domain Laundering) is a form of Sophisticated Invalid Traffic (SIVT) in which a false representation is made about the domain associated with an ad impression. Two examples are when the domain in the ad request is different from the domain of the actual inventory being supplied or the actual ad is rendered to a different website or application than the one identified in the ad request. (See “False Representation” on page 8 of the Trustworthy Accountability Group (TAG) TAG Invalid Traffic Taxonomy v2.0.)
 
+### IP Spoofing
+IP spoofing is a form of Sophisticated Invalid Traffic (SIVT) where aggregate reports of events (such as ad impressions) can be modified to contain IPs that are more trusted than the original IPs, evading IP reputation systems that are built to evaluate these aggregate reports.
+
 ## Capabilities
 
 ### Motivation
