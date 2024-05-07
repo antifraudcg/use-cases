@@ -88,7 +88,7 @@ Session credentials for authenticated users are traditionally stored as cookies,
 
 Invalid traffic is any activity that doesn't come from a real user with genuine interest. It can include accidental clicks caused by intrusive ad implementations, fraudulent clicking by competing advertisers, advertising botnets and more (per [Google’s](https://www.google.com/ads/adtrafficquality/invalid-activity) definition).
 
-See [TAG IVT Taxonomy](https://f.hubspotusercontent40.net/hubfs/2848641/Invalid%20Traffic%20Taxonomy%20(IVT)/IVT%20Taxonomy%20v2.0.pdf) and [Invalid Traffic Detection and Filtration Standards Addendum](http://mediaratingcouncil.org/IVT%20Addendum%20Update%20062520.pdf) for more details in the underlying threat models in advertising.
+See [TAG IVT Taxonomy](https://f.hubspotusercontent40.net/hubfs/2848641/Invalid%20Traffic%20Taxonomy%20(IVT)/IVT%20Taxonomy%20v2.0.pdf) and [Invalid Traffic Detection and Filtration Standards Addendum](https://mediaratingcouncil.org/sites/default/files/Standards/IVT%20Addendum%20Update%20062520.pdf) for more details in the underlying threat models in advertising.
 
 ### Ecommerce Fraud
 
