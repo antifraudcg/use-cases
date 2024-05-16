@@ -130,7 +130,7 @@ Paypal was recently the victim of such an attack. Paypal announced that 4.5 mill
 
 ### Sensitive Data Scraping
 
-Sensitive data (e.g. user profiles, product prices, user generated content) that is available in the public domain (account authentication may or may not be required) is programmatically exfiltrated at scale for use elsewhere.
+Sensitive data (e.g. user profiles, user generated content, house purchase records) that is available in the public domain (account authentication may or may not be required) is programmatically exfiltrated at scale for use elsewhere.
 
 #### Scraping
 
@@ -160,7 +160,7 @@ See [OAT-015 Denial of Service](https://owasp.org/www-project-automated-threats-
 
 ### Theft of Intellectual Property
 
-Attackers are sometimes after the developer’s intellectual property. It may materialize as scraping the developer’s database (product catalog, map tiles, search results), or re-selling the service under a different brand (e.g. video stream pulled into a foreign player).
+Attackers are sometimes after the developer’s intellectual property. It may materialize as scraping the developer’s database (e.g. map tiles, search results), or re-selling the service under a different brand (e.g. video stream pulled into a foreign player).
 
 ### Unauthorized access
 
